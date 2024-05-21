@@ -1,0 +1,83 @@
+
+.netflix-logo {
+    height: 125px;
+    width: 175px;
+    padding-top: 0px;
+    padding-left: 15px;
+    padding-bottom: 16px;
+}
+.netflix-starting-page-text {
+    color: #ffffff;
+    font-family: "Roboto";
+    padding-top: 17px;
+
+}
+.netflix-signin {
+  width: 75px;
+}
+.netflix-starting-page-button {
+    margin-top: 30px;
+    margin-right: 40px;
+    cursor: pointer;
+    height:36px;
+    width: 95px;
+    color:white;
+    border-width: 0px;
+    background-color:#E50914;
+    border-radius: 4px;
+}
+.btn-text {
+    margin: 10px;
+    background-color: #000000;
+    color: #ffffff;
+}
+.utsm-size {
+    height: 49px;
+    width:300px ;
+    padding-bottom: 13px;
+    padding-top: 7px;
+    margin-right: 8px;
+}
+.netflix-bg {
+    background-image:url("Netflix-Background.jpeg");
+    height: 100vh;
+    background-size:cover;
+}
+.netflix-bttn {
+  background-color: red;
+}
+.netflix-text {
+    font-size: 69px;
+    color: white;
+    padding-top: 70px;
+    text-shadow: 2px 2px 2px rgb(50, 49, 49);
+    
+}
+.netflix-para {
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px 2px rgb(50, 49, 49);
+
+}
+.netflix-para2 {
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px 2px rgb(50, 49, 49);
+
+}
+
+.netflix-search-btn {
+    background-color: #E50914;
+    height: 60px;
+    width: 230px;
+    color: white;
+    border-width: 0px;
+    font-size: 25px;
+    padding-bottom:5px;
+}
+
+.netflix-search-btn:hover {
+    background-color: #f1232e;
+}
+
+

@@ -1,0 +1,122 @@
+<html>
+
+<head>
+  <title>Netflix | Sign Up</title>
+  <link rel="icon" type="image/x-icon" href="Netflix clone\netflixicon.ico">
+  <style>
+    * {
+      box-sizing: border-box
+    }
+
+
+    .jncenter {
+      background-color: rgba(0, 0, 0, .80);
+      border-radius: 2%;
+      margin-right: 69%;
+      padding-top: 1%;
+      padding-bottom: 1.6%;
+      padding-left: 3.8%;
+      position: relative;
+      left: 35%;
+    }
+
+    input[type=text],
+    input[type=password],
+    input[type=email] {
+      color: white;
+      border-style: solid;
+      background-color: #333;
+      border-radius: 4px;
+      width: 85%;
+      padding: 2.1%;
+    }
+
+    input[type=text]:hover,
+    input[type=password]:hover,
+    input[type=email]:hover {
+      color: black;
+      border-style: solid;
+      background-color: #FAF7F6;
+    }
+
+    .jnbody {
+      background-image: url(bgimage.jpeg);
+      background-size: cover;
+      font-family: Arial;
+      color: white;
+    }
+
+    .jnanchor {
+      color: #E50914;
+    }
+
+    .jnbtn {
+      height: 32px;
+      cursor: pointer;
+      position: relative;
+      border-radius: 4px;
+      width: 85%;
+      color: white;
+      background-color: #E50914;
+      border-width: 0px;
+    }
+    .jnbtn:hover {
+      background-color: #f1232e;
+    }
+
+    .jnh1 {
+      margin-right: 64%;
+      position: relative;
+      left: 25%;
+    }
+
+    .jnimg {
+      margin: 10px;
+    }
+  </style>
+</head>
+
+<body class="jnbody"></body>
+<img src="netflix-logo.png" class="jnimg" height="60" width="175">
+
+<div class="jncenter">
+  <h1 class="jnh1">Sign Up</h1>
+  <form action="login.html" method="get">
+    <label for="uname"><b>Username</b></label><br>
+    <input type="text" placeholder="Enter Username" name="uname" required><br><br>
+    <label for="Email"><b>Email</b></label><br>
+    <input type="email" placeholder="Enter Email" name="Email" required><br><br>
+    <label for="pass"><b>Password</b>
+    </label><br>
+    <input type="password" placeholder="Enter password" name="pass" required><br><br>
+    <label for="plan"><b>Plans</b></label><br><br>
+    <table>
+      <tr>
+        <td><input type="radio" id="plan" name="plan" value="mobile" required>Mobile : 149 INR/month</td>
+      </tr>
+      <tr>
+        <td><input type="radio" id="plan" name="plan" value="basic" readonly>Basic : 199 INR/month</td>
+      </tr>
+      <tr>
+        <td><input type="radio" id="plan" name="plan" value="standard" required>Standard : 499 INR/month</td>
+      </tr>
+      <tr>
+        <td><input type="radio" id="plan" name="plan" value="premium" required>Premium : 649INR/month</td>
+      </tr>
+      <tr>
+        <td>To know plan details: <a href="plan.html"
+            class="jnanchor" target="_blank"><b>Click here</b></a>
+        </td>
+      </tr>
+    </table><br>
+    <button class="jnbtn" type="submit" value="SignUp"><b>Sign Up</b></button>
+</div>
+</div>
+</div>
+
+
+
+</form>
+</body>
+
+</html>
